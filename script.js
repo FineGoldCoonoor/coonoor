@@ -124,7 +124,7 @@ function drawJewelry(landmarks, ctx) {
   };
   const neck = {
     x: landmarks[152].x * canvasElement.width - 8, // ⬅ Shifted necklace left
-    y: landmarks[152].y * canvasElement.height + 42,
+    y: landmarks[152].y * canvasElement.height + 10,
   };
 
   if (currentMode === 'earring' && earringImg) {
