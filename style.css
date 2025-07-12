@@ -219,12 +219,12 @@ video, canvas {
 }
 #location-btn {
   position: fixed;
-  bottom: 20px; 
+  bottom: 10px; 
   left: 20px;
   background-color: #5E0F8B;
   color: #ffffff;
   border: none;
-  padding: 15px 15px;
+  padding: 5px 5px;
   border-radius: 8px;
   cursor: pointer;
   z-index: 10;
