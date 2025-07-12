@@ -28,12 +28,22 @@ video, canvas {
 #branding {
   position: fixed;
   top: 21px;
-  width: 100%;
-  text-align: center;
+  left: 20px;
+  padding: 8px 12px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
   z-index: 5;
   font-family: 'Cinzel', serif;
   font-size: 24px;
-  color: #ffd700;
+  color: #000; /* better contrast on yellow */
+}
+
+/* Add this to increase logo size */
+#branding img {
+  width: 80px;  /* Increase this value as needed */
+  height: auto;
+  margin-right: 10px; /* spacing between logo and text */
 }
 
 .camera-icon {
@@ -61,8 +71,8 @@ video, canvas {
 
 
 #jewelry-mode button {
-  background-color: #ffd700;
-  color: #000;
+  background-color: #5E0F8B;
+  color: #ffffff;
   border: none;
   padding: 10px 12px;
   border-radius: 8px;
@@ -72,7 +82,7 @@ video, canvas {
 }
 
 #jewelry-mode button:hover {
-  background-color: #e6c200;
+  background-color: #5E0F8B;
 }
 
 .options-group {
@@ -83,7 +93,7 @@ video, canvas {
   display: flex;
   gap: 15px;
   z-index: 2;
-  background: transparent; /* ✅ no white background */
+  background: #5E0F8B; /* ✅ no white background */
   backdrop-filter: none;   /* or keep blur if you like glassy effect */
   padding: 10px 20px;
   border-radius: 16px;
@@ -111,7 +121,7 @@ video, canvas {
 }
 
 .options-group button:hover img {
-  border: 2px solid #ffd700;
+  border: 2px solid #5E0F8B;
   transform: scale(1.05);
 }
 
@@ -139,8 +149,8 @@ video, canvas {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #ffd700;
-  color: #000;
+  background-color: #5E0F8B;
+  color: #ffffff;
   border: none;
   padding: 10px 12px;
   border-radius: 8px;
@@ -169,8 +179,8 @@ video, canvas {
 }
 
 .close-btn {
-  background-color: #ffd700;
-  color: #000;
+  background-color: #5E0F8B;
+  color: #ffffff;
   border: none;
   padding: 10px 15px;
   border-radius: 8px;
@@ -203,16 +213,16 @@ video, canvas {
   padding: 10px 16px;
   border: none;
   border-radius: 8px;
-  background: #ffd700;
-  color: #000;
+  background: #5E0F8B;
+  color: #ffffff;
   cursor: pointer;
 }
 #location-btn {
   position: fixed;
   bottom: 80px; /* above the info button */
   right: 20px;
-  background-color: #ffd700;
-  color: #000;
+  background-color: #5E0F8B;
+  color: #ffffff;
   border: none;
   padding: 10px 12px;
   border-radius: 8px;
